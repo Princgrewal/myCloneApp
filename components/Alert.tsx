@@ -10,7 +10,7 @@ export default function AlertFunction() {
 
 const styles = StyleSheet.create({
     alert: {
-        marginTop: 10,
+        marginTop: 0,
         backgroundColor: "#23a0e8",
         padding: 7,
         borderRadius: 10,

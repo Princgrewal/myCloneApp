@@ -7,7 +7,7 @@ export default function Header1() {
         <SafeAreaView style={styles.container}>
             <View style={styles.c1}>
                 <View style={styles.logoContainer}>
-                <Image source={{uri:'https://i.pinimg.com/736x/a3/31/a8/a331a8d0a8ff50827c6cb3437f336a30.jpg'}} style={{width: 40, height: 40,borderRadius:30,}} />
+                    <Image source={{uri:'https://i.pinimg.com/736x/a3/31/a8/a331a8d0a8ff50827c6cb3437f336a30.jpg'}} style={{width: 40, height: 40,borderRadius:30,}} />
                     <FontAwesome6 style={styles.logo} name="x-twitter" size={30} color="white"/>
                     <Text style={styles.border}>Upgrade</Text>
                 </View>
@@ -58,6 +58,5 @@ const styles = StyleSheet.create({
     c1:{
         flexDirection:'column',
         flex: 1,
-
     }
 });
